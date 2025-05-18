@@ -220,13 +220,13 @@ function setupFormValidation() {
                 // MODIFIED: Using otherIssueDescriptionValue here
                 other_issue_description: otherIssueDescriptionValue,
                 user_agent: navigator.userAgent,
-                to_email: 'kingsleyfrancis.kalu@gmail.com,oscarscott2411@gmail.com'
+                to_email: 'oscarscott2411@gmail.com'
             };
 
             // --- EmailJS Configuration ---
             // !!! IMPORTANT: Make sure these IDs are YOUR actual EmailJS Service ID and Template ID !!!
-            const SERVICE_ID = "service_mkx8qgf"; // This should be YOUR EmailJS Service ID
-            const TEMPLATE_ID = "template_g5wq2v1"; // This should be YOUR EmailJS Template ID that uses the `to_email` parameter
+            const SERVICE_ID = "service_2e52ste"; // This should be YOUR EmailJS Service ID
+            const TEMPLATE_ID = "template_lfbeywn"; // This should be YOUR EmailJS Template ID that uses the `to_email` parameter
 
             console.log("Preparing to send email with params:", JSON.stringify(templateParams, null, 2));
             console.log("Using SERVICE_ID:", SERVICE_ID, "and TEMPLATE_ID:", TEMPLATE_ID);
